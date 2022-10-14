@@ -1,5 +1,9 @@
-export function Text(){
+interface TextProps{
+  size?: 'sm' | 'md' | 'lg';
+}
+
+export function Text({size = 'md'}: TextProps){
   return (
-    <h1>Text</h1>
+    <span className="text-gray-100 font-sans">Hello World</span>
   )
 }
