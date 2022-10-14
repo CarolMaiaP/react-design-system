@@ -5,7 +5,16 @@ export default {
   title: 'Components/Text',
   component: Text,
   args: {
-    children: 'Lorem ipsum'
+    children: 'Lorem ipsum',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg'],
+      control: {
+        type: 'inline-radio'
+      }
+    }
   }
 } as Meta<TextProps>
 
