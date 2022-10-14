@@ -1,6 +1,6 @@
 import { clsx } from 'clsx'
 
-interface TextProps{
+export interface TextProps{
   size?: 'sm' | 'md' | 'lg';
   children: string;
 }
