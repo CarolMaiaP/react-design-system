@@ -4,7 +4,9 @@ import { TextInput, TextInputProps } from './TextInput'
 export default {
   title: 'Components/TextInput',
   component: TextInput,
-  args: {},
+  args: {
+    placeholder: 'Type your e-mail address'
+  },
   argTypes: {}
 } as Meta<TextInputProps>
 
