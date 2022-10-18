@@ -1,9 +1,10 @@
+import { Logo } from './Logo'
 import './styles/global.css'
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='font-bold text-2xl text-cyan-500'>Hello World</h1>
+    <div className="w-screen h-screen bg-gray-900 flex items-center justify-center text-gray-100">
+      <Logo />
     </div>
   )
 }
